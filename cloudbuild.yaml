@@ -26,7 +26,7 @@ steps:
       ]
 
 # Define a Google Cloud Storage bucket for build logs
-logsBucket: "gs://api-service-log/"
+logsBucket: "gs://vnpay-service-log/"
 
 images:
   - "gcr.io/project-prn231-gr3/api-vnpay-service"
