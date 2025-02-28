@@ -17,7 +17,7 @@ steps:
   - name: "gcr.io/cloud-builders/gcloud"
     args:
       [
-        "run", "deploy", "api-ai-service",
+        "run", "deploy", "api-vnpay-service",
         "--image", "gcr.io/project-prn231-gr3/api-vnpay-service:$COMMIT_SHA",
         "--region", "asia-east1",
         "--platform", "managed",
